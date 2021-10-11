@@ -1,0 +1,2 @@
+
+web: java $JAVA_OPTS -cp target/first-4.1.2-jar-with-dependencies.jar app.main.App --port $PORT

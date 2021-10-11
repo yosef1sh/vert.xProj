@@ -1,0 +1,5 @@
+app\main\App.class
+app\models\CurrentForecastResponse.class
+app\models\WeatherResponse.class
+app\models\Coord.class
+app\models\DayWeather.class
