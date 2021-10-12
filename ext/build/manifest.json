@@ -1,0 +1,16 @@
+{
+  "name": "Weather App",
+  "description": "My Weather app",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions" : [
+    "management",
+    "history",
+    "storage",
+    "https://agile-bayou-81380.herokuapp.com/*"
+  ],
+  "chrome_url_overrides" : {
+      "newtab": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-kWV1HcjNN41HmAbisRYbgewZrF0PrwUEQjI2/hUCvM0='; object-src 'self'"
+}
